@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Theft Auto VI - Blog de Notícias</title>
+    <style>
+        header {
+            background-color: #1A0B2E; /* Roxo escuro da noite de Vice City */
+            color: #FF007F;            /* Rosa Pink Neon marcante do logo do GTA 6 */
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        main {
+            background-color: #2D144D; /* Roxo médio para destacar o conteúdo */
+            color: #00FFFF;            /* Azul Cyan Neon para excelente contraste e leitura */
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        /* Controlando o tamanho do logo temático do GTA 6 */
+        img {
+            width: 120px;
+            height: 80px; /* Ajustado para formato mais retangular/horizontal do logo */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎮 Portal GTA 6</h1>
+        <p>Tudo sobre o maior lançamento do mundo dos games!</p>
+    </header>
+
+    <main>
+        <h2>Novos Rumores sobre o Mapa de Vice City</h2>
+        <p>Por: Eduardu
+        </p>
+        
+        <img src="imagem-blog.png" alt="Logotipo estilizado do jogo GTA 6, com o número romano VI preenchido por um pôr do sol em tons de rosa e laranja com silhuetas de palmeiras, e a palavra Grand Theft Auto escrita em branco na frente.">
+        
+        <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar todas as novidades, trailers analisados, segredos revelados e curiosidades sobre a jornada de Lucia e Jason no estado de Leon
