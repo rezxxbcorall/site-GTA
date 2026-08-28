@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Theft Auto VI - Blog de Notícias</title>
+    <style>
+        header {
+            background-color: #1A0B2E;
+            color: #FF007F;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        main {
+            background-color: #2D144D;
+            color: #00FFFF;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+            display: flex;
+            text-align: left;
+            gap: 20px;
+            align-items: center;
+        }
+
+        img {
+            width: 120px;
+            height: 80px;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+            color: #FF007F;
+            margin: 4px 0;
+        }
+
+        button {
+            background-color: #FF007F;
+            color: #FFFFFF;
+            border: none;
+            padding: 8px 16px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-right: 5px; /* Adiciona espaçamento entre os botões */
+        }
+
+        button:hover {
+            background-color: #FF3399;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎮 Portal GTA 6</h1>
+        <p>Tudo sobre o maior lançamento do mundo dos games!</p>
+    </header>
+
+    <main>
+        <img src="imagem-blog.png" alt="Logotipo estilizado do jogo GTA 6, com o número romano VI preenchido por um pôr do sol em tons de rosa e laranja com silhuetas de palmeiras.">
+        
+        <div>
+            <h2>Novos Rumores sobre o Mapa de Vice City</h2>
+            <p class="artigo-autor">Por: Marcelo Paludetto</p>
+            <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar todas as novidades, trailers analisados, segredos revelados e curiosidades sobre a jornada de Lucia e Jason no estado de Leonida.</p>
+            
+            <button>❤️ <span>0</span></button>
+            <button>👍 <span>0</span></button>
+        </div>
+    </main>
+
+    <script>
+        // 1. Mapeamos todos os elementos de botão da página
+        const botoes = document.querySelectorAll("button");
+
+        // 2. Criamos o laço para tratar cada botão de forma independente
+        botoes.forEach(function(botao) {
+            
+            // Adiciona o ouvinte de cliques para o botão atual do ciclo
+            botao.addEventListener("click", botaoClicado);
+
+            // Função acionada exclusivamente no botão que recebeu o clique
+            function botaoClicado() {
+                console.log("fui clicado");
+                
+                // Filtra e seleciona apenas o span pertencente a este botão
+                let texto = botao.querySelector("span");
+                
+                // Incrementa a contagem de curtidas do span selecionado
+                texto.textContent++;
+            }
+        });
+    </script>
+
+</body>
+</html>
